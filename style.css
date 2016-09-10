@@ -1,0 +1,61 @@
+header {
+  height: 50px;
+  text-align: center;
+  margin: 50px 0  ;
+  color: black;
+}
+body {
+  background: Grey;
+}
+
+#carousel {
+  border: 2px solid black;
+  width: 700px;
+  height: 334px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 700px;
+  height: 334px;
+}
+
+.prev {
+  opacity: 0.5;
+  position: absolute;
+  left: 10px;
+  top: 150px;
+}
+
+.next {
+  opacity: 0.5;
+  position: absolute;
+  right: 10px;
+  top: 150px;
+}
+.arrow:hover {
+opacity: 1;
+}
+
+.nav {
+  opacity: 0.5;
+  position: absolute;
+  bottom: 25px;
+  left :300px;
+}
+
+.nav span {
+  background: Black;
+  color: white;
+  padding: 2px 5px;
+}
+
+.nav span:hover, .nav span.active {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
